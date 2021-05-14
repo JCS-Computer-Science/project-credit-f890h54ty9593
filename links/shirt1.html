@@ -2,23 +2,27 @@
 <html>
   <head>
     <title>final-project</title>
-    <link rel="stylesheet" type="text/css" href="../project-credit-f890h54ty9593/src/css/center.css">
+
   </head>
 
   <body>
     <header>
-      <a href="../index.html"><img src="../images/cross.gif" alt="logo"></a>
+      <a href="../index.html"><img src="../images/cross.gif" alt="logo" class="class"></a>
   </header>
 
     <style>
       body{
         background-image: url(../images/shirtpage.png);
       }
-      header{
-        left: 50%
-      }
+      .class {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
     </style>
 
-    <img src="../images/shirt1.png">
+<img src="../images/shirt1.png" id="shirt1" 
+onmouseover="document.getElementById('shirt1').src='../images/shirt1 2.png'" 
+onmouseout="document.getElementById('shirt1').src='../images/shirt1.png'" ></img>
   </body>
 </html>
