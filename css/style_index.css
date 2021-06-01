@@ -43,24 +43,6 @@ img{
     margin-left:20px;
     margin-right: 20px;
 }
-
-.info-of-img-below{
-    text-align:center;
-    color:#ffffff;
-    background-color: #f84258; 
-    height:30px;
-    padding-top:5px;
-}
-@media screen and (max-width:891px){
-    .info-of-img-below{
-        font-size:12px;
-    }
-}
-@media screen and (max-width:712px){
-    .info-of-img-below{
-        font-size:9px;
-    }
-}
 .index-grid-img-2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -69,7 +51,6 @@ img{
     margin-right: 20px;
     
 }
-
 .index-grid-img-2 img:nth-child(3){
     width:372px;
     object-fit:cover;
@@ -143,15 +124,6 @@ img{
 
 .footer-container .footer-2,.footer-3{
     padding-top:70px;
-}
-.copy-right{
-    font-family: 'Sacramento', cursive;
-    text-align: center;
-    color:#f84258; 
-    font-size:27px;
-}
-.copy-right a{
-    color:#f84258; 
 }
 @media  screen and (max-width:593px){
     .footer-container .footer-1 h2,p,h5,h6{
