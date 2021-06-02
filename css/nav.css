@@ -21,7 +21,7 @@ nav a{
  /*hover over text*/
 nav a:hover{
     transition: 0.2s;
-    color: #ece3e3;
+    color: #918b8b;
     text-decoration: none;
 }
  /*Avant Garden logo*/
