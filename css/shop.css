@@ -1,26 +1,15 @@
+ /*align background iamge to center*/
 .bg-images{
   text-align: center;
 }
-.bg-images img{
-  object-fit: cover;
-}
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+ /*grid for rows*/
 .row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
   padding-left:50px;
-  
 }
-.btn-of-img{
-  border:none;
-  position: absolute;
-}
+ /*BUTTON FOR CART*/
 .cart-details{
   padding-left:50px;
 }
@@ -31,10 +20,12 @@
   border: 1px solid black;
   width:120px;
 }
-.last-hr-of-product{
+ /*line to seperate products*/
+.last-hr{
   border: 1px solid black;
   width:70%;
 }
+ /*button clear animation*/
 .btn-clear-list{
   width: 100px;
   height: 40px;
@@ -43,9 +34,11 @@
   background: none;
   border:none;
 }
+ /*hover animation*/
 .btn-clear-list:hover{
   background-color: #ece3e3;
 }
+ /*JS*/
 .ul_pr li{
   font-size:18px;
 }

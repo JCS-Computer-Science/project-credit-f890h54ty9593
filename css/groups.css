@@ -1,17 +1,21 @@
+ /*for nav bar*/
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
+ /*grid template for clothes*/
 .product-img{
     display: grid;
     grid-template-columns: repeat(1,auto-fill(1160px,1fr));
 }
+ /*for h1 classes*/
 h1{
     padding-top: 110px;
     margin:20px;
     text-align: center;
 }
+ /*for hr classes*/
 hr{
     
     max-width: 200px;
